@@ -2,9 +2,6 @@ from bbot.modules.base import BaseModule
 from leakcheck import LeakCheckAPI
 
 class leakcheck(BaseModule):
-    """
-    Resolve DNS_NAMEs
-    """
 
     deps_pip = ["leakcheck"]
     watched_events = ["EMAIL_ADDRESS"]
